@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.teleporttest.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\Teleport Test\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Kaiju Attacks! [Testing]"
+        }
+      }
+    }
+  ]
+}

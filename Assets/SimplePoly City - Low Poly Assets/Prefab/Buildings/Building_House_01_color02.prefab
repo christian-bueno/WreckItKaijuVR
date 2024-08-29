@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 3300000}
+  - component: {fileID: 2300000}
+  - component: {fileID: 2346765849235395303}
+  - component: {fileID: 8280161902085337886}
+  - component: {fileID: -6056459833658613961}
+  - component: {fileID: -1240959911316151775}
+  m_Layer: 0
+  m_Name: Building_House_01_color02
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 4300000, guid: 6fddb771ca917c6498310bcc16a817e6, type: 3}
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1b289b633b2f4624584f749cf4e5e7f2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2346765849235395303
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 4
+  m_Mass: 1000
+  m_Drag: 5000
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8280161902085337886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45b0ff67264fbc49b63687a8908beee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActiveHand: {fileID: 0}
+--- !u!65 &-6056459833658613961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.891638, y: 9.053619, z: 12.602821}
+  m_Center: {x: -0.56064415, y: 4.5260267, z: -0.13327432}
+--- !u!114 &-1240959911316151775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b372bc90351d5ee41bc1530ce42971f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokenPieces:
+  - {fileID: 777170565530599600, guid: 7987f44f4c9c6b64abbc6b1c8c26c886, type: 3}
+  - {fileID: 4516170049746834300, guid: 78df47e686963a84b8acc0720b3583db, type: 3}
+  - {fileID: 4110953955947011484, guid: d8c9b9a68aeef6b4ab8f88e1183cd1ab, type: 3}
+  - {fileID: 5700074307337533244, guid: 2549bf04fe1fe74488c4256aab1a3a34, type: 3}
+  - {fileID: 4980781078598635026, guid: 81813633a8977a744991339ca6bf3d75, type: 3}
+  - {fileID: 3591751166063018206, guid: 8c46e2d3000cdb443a0180cc7c429fc0, type: 3}
+  - {fileID: 63251380427470861, guid: 91b18b3ddd7f4034cb3f17fa76ccbc1c, type: 3}
+  - {fileID: 9088038321572120174, guid: 486b2b3c80b866443b5f0d01fa8ac804, type: 3}
+  - {fileID: 4033208262386138926, guid: a04d920d330271045809916fd7c681e3, type: 3}
+  - {fileID: 7837838035177569952, guid: 4f5ee9e6b85cb6b4ab0cc2fdc0597017, type: 3}
+  - {fileID: 3623728352190231813, guid: 30770aa5e772b034bb12bd6840d0f680, type: 3}
+  - {fileID: 8684605915454816090, guid: b0cf7713aaaffe447b4d464403160d26, type: 3}
+  - {fileID: 2149300447683262639, guid: 0a7325364e1989c42b30c1b9325c7bdc, type: 3}
+  - {fileID: 569591533298835897, guid: ba2f5f57e69130243a00e81be4269281, type: 3}
+  - {fileID: 3741544911649145478, guid: cdf0306f4f067ff499fa4256c9bffd56, type: 3}
+  - {fileID: 7336536170554664637, guid: c8f031d3fc8ffb44caa34a5b85d93c28, type: 3}
+  - {fileID: 5179666424039528039, guid: 4b2af3c5309910d47a7ef264783b3b30, type: 3}
+  explosionForce: 5
+  explosionRadius: 1
+  explosionUpward: 0.1
+  allowedTags:
+  - Interactable

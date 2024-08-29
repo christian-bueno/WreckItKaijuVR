@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 3300000}
+  - component: {fileID: 2300000}
+  - component: {fileID: -2369430456280067040}
+  - component: {fileID: -5569692917058032501}
+  - component: {fileID: 5687904096546277992}
+  - component: {fileID: 1783586182589140019}
+  m_Layer: 0
+  m_Name: Building Sky_big_color03
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 4300000, guid: 152095147e5492c41a9718b9b09863a4, type: 3}
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a1a61be9dd7e91b4faec2c4eb7ca4e8c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &-2369430456280067040
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 4
+  m_Mass: 10000
+  m_Drag: 5000
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-5569692917058032501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45b0ff67264fbc49b63687a8908beee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActiveHand: {fileID: 0}
+--- !u!65 &5687904096546277992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.659739, y: 24.802341, z: 12.296448}
+  m_Center: {x: -0.0000023841858, y: 12.401167, z: 0.124479055}
+--- !u!114 &1783586182589140019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b372bc90351d5ee41bc1530ce42971f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokenPieces:
+  - {fileID: 5013476460635047970, guid: 5542904538db3fc4989a6e019863aca3, type: 3}
+  - {fileID: 3031742554784867322, guid: 1fda48a58f1f90f4c89be40c74c9e41c, type: 3}
+  - {fileID: 8486881510847342258, guid: 935d8118e6f3aab4a9480b38c9a083e1, type: 3}
+  - {fileID: 1431037845155913812, guid: 897259087e288a54d86b677c2deb5fc1, type: 3}
+  - {fileID: 1926833859197614732, guid: 73f28c22cce50e142ae21a4c6e3fd581, type: 3}
+  - {fileID: 6116855974316379152, guid: 7f41da7b9c9d26f41aa5518ef161ef06, type: 3}
+  - {fileID: 6524707895730389530, guid: bef0ba937729deb44acce87006e60966, type: 3}
+  - {fileID: 720977285688187934, guid: cddc55b532c5da645901f5172cd9255e, type: 3}
+  - {fileID: 8932291497862409629, guid: 66c72371228e8fc4d9b61a89f625e15e, type: 3}
+  - {fileID: 8139742371196310969, guid: fc724f8b04d5d0a4a940e48d441b57e1, type: 3}
+  - {fileID: 483058236041716903, guid: cdca4139717216c42bfa96097501e703, type: 3}
+  - {fileID: 6875441974293584844, guid: 0a10db55d6518714fa714f6be7c1efe6, type: 3}
+  - {fileID: 3575324600329723640, guid: 8d5c0069d6d36704e86f33a8f7a46fb3, type: 3}
+  - {fileID: 1475983504361390943, guid: 8d02be82ce34682439190b4de3093e38, type: 3}
+  - {fileID: 6855562608367323435, guid: 93c4ba6eca975cc46a0fb947ad85d503, type: 3}
+  - {fileID: 4995966790345407417, guid: c78ba830a87eb20439490a673dc54dba, type: 3}
+  - {fileID: 8301364597368755376, guid: fe5eacec34af5314d8291eaa73035a49, type: 3}
+  - {fileID: 1502494464933654146, guid: 32b72915e820838419bd3d98fce57f08, type: 3}
+  - {fileID: 3621285048304160809, guid: 74992a363a876d341bff08f0069b99e9, type: 3}
+  - {fileID: 7479132237703033762, guid: 28e60b7f34310694084883cc96074f8a, type: 3}
+  explosionForce: 5
+  explosionRadius: 1
+  explosionUpward: 0.1
+  allowedTags:
+  - Interactable

@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj"
+              },
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Actions.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Actions.csproj"
+              },
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Editor.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Editor.csproj"
+              },
+              "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Input_Editor.csproj": {
+                "projectPath": "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Input_Editor.csproj"
+              },
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj",
+        "projectName": "SteamVR",
+        "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\SteamVR\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Actions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Actions.csproj",
+        "projectName": "SteamVR_Actions",
+        "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Actions.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\SteamVR_Actions\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Editor.csproj",
+        "projectName": "SteamVR_Editor",
+        "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Editor.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\SteamVR_Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Input_Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Input_Editor.csproj",
+        "projectName": "SteamVR_Input_Editor",
+        "projectPath": "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Input_Editor.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\SteamVR_Input_Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj": {
+                "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj",
+        "projectName": "SteamVR_Windows_EditorHelper",
+        "projectPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\SteamVR_Windows_EditorHelper.csproj",
+        "packagesPath": "C:\\Users\\iamcb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\iamcb\\Google Drive\\Course Documents\\Semester 8\\CPS643\\Labs\\KaijuSim\\Temp\\obj\\\\SteamVR_Windows_EditorHelper\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iamcb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
