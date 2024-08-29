@@ -3,4 +3,4 @@ Wreck-It Kaiju is a VR simulation for Meta Quest 2 where you play as a giant mon
 
 [View the Wreck-It Kaiju User Manual](Wreck-It%20Kaiju%20User%20Manual.pdf)
 
-[View the Website](https://wreckitkaiju.my.canva.site/)
+[Visit the Website](https://wreckitkaiju.my.canva.site/)
